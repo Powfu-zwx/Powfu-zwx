@@ -45,9 +45,9 @@
 ### 📊 我的 GitHub 统计 (My GitHub Stats)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[你的用户名]&show_icons=true&theme=radical&rank_icon=github" alt="github stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=powfu-zwx&show_icons=true&theme=radical&rank_icon=github" alt="github stats" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[你的用户名]&layout=compact&theme=vision-friendly-dark" alt="top langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=powfu-zwx&layout=compact&theme=vision-friendly-dark" alt="top langs" />
 </p>
 
 ---
