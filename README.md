@@ -1,4 +1,4 @@
-# Hi there, I'm [你的名字] 👋
+# Hi there, I'm Powfu-zwx（周维翔） 👋
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHVhNmZ1amZmMjY5ZWM5bDZqenNtd3ZnZDM3M2w5a2t2czNmMHFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M9gbBd9hDxZឮY/giphy.gif" width="100">
@@ -13,10 +13,10 @@
 ### 👨‍💻 关于我 (About Me)
 
 - 🏫 我是来自 **南京工业大学 (Nanjing Tech University)** 人工智能系的一名本科生。
-- 🤖 我对人工智能的无限可能性充满热情，尤其对 `[例如：计算机视觉/自然语言处理/强化学习]` 等方向非常感兴趣。
+- 🤖 我对人工智能的无限可能性充满热情，尤其对 计算机视觉/自然语言处理/强化学习 等方向非常感兴趣。
 - 🚀 我的目标是成为一名 AI 领域的研究员，通过代码和算法探索未知的边界。
 - 💡 我享受在课余时间独立构建项目，将课堂所学付诸实践并探索新的技术。
-- 📫 如何联系我 (How to reach me): **[你的邮箱地址]**
+- 📫 如何联系我 (How to reach me): 1011046478@qq.com
 
 ---
 
