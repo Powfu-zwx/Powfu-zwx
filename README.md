@@ -9,7 +9,7 @@ AI undergraduate focused on reinforcement learning. I build small, verifiable in
 
 **Notes & research**
 
-- [TESAURO](https://github.com/Powfu-zwx/TESAURO) — reinforcement learning fundamentals in Chinese: notes, derivations, and runnable notebooks.
+- [BreakRL](https://github.com/Powfu-zwx/BreakRL) — ablation-driven reinforcement learning fundamentals in Chinese: notes, derivations, and runnable notebooks.
 - [clean-first-engineering](https://github.com/Powfu-zwx/clean-first-engineering) — the engineering discipline I hold my agents (and myself) to, packaged as an installable agent skill.
 
 Evidence over vibes: if an agent did something, there should be a portable record anyone can verify.
