@@ -1,42 +1,35 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Hi,%20I'm%20Powfu&fontColor=ffffff&fontSize=44&fontAlignY=36&desc=AI%20undergrad%20%C2%B7%20Reinforcement%20Learning%20%C2%B7%20Verifiable%20Agents&descAlignY=58&descSize=16" width="100%" alt="header" />
-
-<a href="https://github.com/Powfu-zwx">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=2C9FAF&center=true&vCenter=true&width=560&lines=Building+small%2C+verifiable+tools+for+AI+agents;Learning+RL+by+breaking+things+on+purpose;Evidence+over+vibes" alt="typing" />
-</a>
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Reinforcement%20Learning-2C5364?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI%20Agents-203A43?style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=Powfu-zwx&style=flat-square&color=2C9FAF&label=Profile+views" />
+<p align="center">
+  <img src="assets/train-log.svg" width="100%" alt="powfu --train profile: reward climbs, collapses when evidence is ablated, then converges" />
 </p>
 
-</div>
+<p align="center">
+  <sub>AI undergrad · reinforcement learning · building tools that leave evidence behind</sub>
+</p>
 
----
+```yaml
+# current_run.yaml
+agent:       powfu
+objective:   understand things by breaking them on purpose
+reward:      evidence > vibes
+training_on: [reinforcement-learning, coding-agents, verifiable-evals]
+status:      still exploring (ε = 0.3)
+```
 
-### 🛠️ Building
+### ▍episodes
 
-| Project | What it is | |
-|:--|:--|:--:|
-| **[ai-auto-research-skill](https://github.com/Powfu-zwx/ai-auto-research-skill)** | Evidence-driven autonomous research skill: bounded experiments, independent evaluation, and strategy reviews. | <img src="https://img.shields.io/github/stars/Powfu-zwx/ai-auto-research-skill?style=flat-square&label=%E2%98%85" /> |
-| **[clean-first-engineering](https://github.com/Powfu-zwx/clean-first-engineering)** | The engineering discipline I hold my agents (and myself) to, as an installable agent skill in English and Chinese: root-cause repair, one source of truth, no residue. | <img src="https://img.shields.io/github/stars/Powfu-zwx/clean-first-engineering?style=flat-square&label=%E2%98%85" /> |
+| | project | hypothesis |
+|:--:|:--|:--|
+| `ep.01` | **[BreakRL](https://github.com/Powfu-zwx/BreakRL)** | You only understand an algorithm once you can predict how it fails. A bilingual RL textbook where every chapter ablates a key mechanism and lets you watch it break. |
+| `ep.02` | **[ai-auto-research-skill](https://github.com/Powfu-zwx/ai-auto-research-skill)** | Autonomous research is only worth trusting when every claim has a bounded experiment and an independent evaluator behind it. |
+| `ep.03` | **[clean-first-engineering](https://github.com/Powfu-zwx/clean-first-engineering)** | Agents write better code under the same discipline good engineers keep: fix the root cause, one source of truth, no residue. |
 
-### 📚 Notes & research
+### ▍ablation study: me
 
-| Project | What it is | |
-|:--|:--|:--:|
-| **[BreakRL](https://github.com/Powfu-zwx/BreakRL)** | A bilingual, failure-first RL textbook (English default, Chinese edition): explain an algorithm, then ablate a key mechanism and watch it fail. | <img src="https://img.shields.io/github/stars/Powfu-zwx/BreakRL?style=flat-square&label=%E2%98%85" /> |
+| removed component | observed behaviour |
+|:--|:--|
+| coffee | reward → 0, loss → ∞ |
+| deadlines | never converges |
+| unit tests | confident and wrong |
+| **evidence** | **vibes. only vibes.** |
 
----
-
-<div align="center">
-
-> **Evidence over vibes** — if an agent did something, there should be a record anyone can verify.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%" alt="footer" />
-
-</div>
+<p align="right"><sub><code>run complete · exit 0</code></sub></p>
