@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="900" height="320" viewBox="0 0 900 320">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:14px}
+.ln{animation:in .35s ease-out both}
+@keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+.curve{stroke-dasharray:1179;animation:draw 6s ease-in-out .6s both}
+@keyframes draw{from{stroke-dashoffset:1179}to{stroke-dashoffset:0}}
+.abl{animation:in .4s ease-out 4.25s both}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+</style>
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2c9faf"/><stop offset="1" stop-color="#7ee787"/></linearGradient>
+<linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c9faf" stop-opacity=".18"/><stop offset="1" stop-color="#2c9faf" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="900" height="320" rx="12" fill="#0d1117"/>
+<rect x=".5" y=".5" width="899" height="319" rx="12" fill="none" stroke="#30363d"/>
+<circle cx="24" cy="22" r="6" fill="#ff5f57"/><circle cx="44" cy="22" r="6" fill="#febc2e"/><circle cx="64" cy="22" r="6" fill="#28c840"/>
+<text x="450" y="27" text-anchor="middle" fill="#6e7681" font-size="12">powfu@longhaul: ~/profile — train.log</text>
+<line x1="0" y1="44" x2="900" y2="44" stroke="#21262d"/>
+<text class="ln" x="36" y="96" fill="#e6edf3" style="animation-delay:0.50s"><tspan fill="#2c9faf">$ </tspan>powfu --train profile --seed 2005</text><text class="ln" x="36" y="123" fill="#8b949e" style="animation-delay:1.25s">[env]   reinforcement learning · coding agents</text><text class="ln" x="36" y="150" fill="#8b949e" style="animation-delay:2.00s">[ep 001]  reward  -12.4   policy: curious</text><text class="ln" x="36" y="177" fill="#8b949e" style="animation-delay:2.75s">[ep 128]  reward   +3.1   policy: reads papers</text><text class="ln" x="36" y="204" fill="#7ee787" style="animation-delay:3.50s">[ep 512]  reward  +41.7   policy: ships things</text><text class="ln" x="36" y="231" fill="#ff7b72" style="animation-delay:4.25s">[ablate]  remove evidence  →  reward collapses</text><text class="ln" x="36" y="258" fill="#7ee787" style="animation-delay:5.00s">[restore] evidence over vibes  →  converged</text><text class="ln" x="36" y="285" fill="#e6edf3" style="animation-delay:5.75s">run complete · exit 0 </text>
+<rect class="cur" x="221" y="272" width="8" height="16" fill="#2c9faf" style="animation-delay:6.5s"/>
+<line x1="505" y1="60" x2="505" y2="300" stroke="#21262d"/>
+<text x="530" y="68" fill="#6e7681" font-size="11">episode reward</text>
+<line x1="530" y1="262" x2="868" y2="262" stroke="#30363d"/>
+<g class="abl">
+<rect x="705.8" y="78" width="54.1" height="184" fill="#ff7b72" opacity=".08"/>
+<line x1="705.8" y1="78" x2="705.8" y2="262" stroke="#ff7b72" stroke-dasharray="3 3" opacity=".6"/>
+<text x="732.8" y="280" text-anchor="middle" fill="#ff7b72" font-size="11">ablation</text>
+</g>
+<polyline class="curve" points="530.0,249.9 532.8,244.0 535.7,247.7 538.5,247.2 541.4,249.9 544.2,244.0 547.0,234.2 549.9,237.2 552.7,231.7 555.6,235.2 558.4,232.5 561.2,232.1 564.1,242.1 566.9,223.9 569.8,224.1 572.6,222.0 575.4,233.8 578.3,231.8 581.1,223.8 584.0,218.5 586.8,210.8 589.6,210.3 592.5,203.8 595.3,208.3 598.2,199.2 601.0,195.5 603.8,199.1 606.7,180.5 609.5,184.7 612.4,177.2 615.2,185.5 618.1,182.8 620.9,176.8 623.7,171.8 626.6,163.6 629.4,162.6 632.3,163.6 635.1,163.4 637.9,157.2 640.8,142.7 643.6,152.4 646.5,142.4 649.3,138.1 652.1,147.3 655.0,134.4 657.8,123.4 660.7,142.0 663.5,128.3 666.3,124.3 669.2,126.3 672.0,115.4 674.9,116.7 677.7,123.5 680.5,106.6 683.4,105.5 686.2,101.8 689.1,96.8 691.9,102.0 694.7,101.9 697.6,109.4 700.4,95.6 703.3,102.1 706.1,106.0 708.9,161.9 711.8,209.8 714.6,245.2 717.5,233.3 720.3,254.6 723.1,250.8 726.0,239.8 728.8,231.9 731.7,237.4 734.5,253.3 737.3,257.2 740.2,238.6 743.0,245.6 745.9,248.0 748.7,234.4 751.5,233.6 754.4,188.2 757.2,133.0 760.1,93.5 762.9,84.2 765.7,88.9 768.6,88.1 771.4,86.7 774.3,99.1 777.1,79.7 779.9,80.9 782.8,82.7 785.6,98.1 788.5,88.7 791.3,78.6 794.2,95.1 797.0,84.1 799.8,75.9 802.7,90.5 805.5,74.3 808.4,77.7 811.2,81.9 814.0,78.6 816.9,76.2 819.7,79.4 822.6,74.3 825.4,84.1 828.2,82.3 831.1,74.3 833.9,79.2 836.8,84.9 839.6,74.3 842.4,74.3 845.3,81.8 848.1,87.7 851.0,79.6 853.8,79.6 856.6,80.5 859.5,74.3 862.3,85.1 865.2,74.3 868.0,86.6" fill="none" stroke="url(#g)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="868" y="280" text-anchor="end" fill="#6e7681" font-size="11">episodes →</text>
+</svg>
