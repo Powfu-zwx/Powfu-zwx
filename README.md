@@ -1,15 +1,14 @@
 ### Hi, I'm Powfu
 
-AI undergraduate focused on reinforcement learning. I build small, verifiable infrastructure for AI agents.
+AI undergraduate focused on reinforcement learning. I build small, verifiable tools for AI agents and learn by breaking things on purpose.
 
 **Building**
 
-- [proofline](https://github.com/Powfu-zwx/proofline) — verifiable run bundles for AI and agent executions: tamper-evident evidence, first-class redaction, semantic diffs, replay, and Ed25519 signatures. Python reference implementation of an open format.
-- [pi-proofline](https://github.com/Powfu-zwx/pi-proofline) — records every [pi](https://pi.dev) agent run as a proofline bundle. A single dependency-free TypeScript file, byte-compatible with the Python implementation and held to it by fuzzed cross-language tests in CI.
+- [ai-auto-research-skill](https://github.com/Powfu-zwx/ai-auto-research-skill) — an evidence-driven autonomous research skill: bounded experiments, independent evaluation, and strategy reviews.
+- [clean-first-engineering](https://github.com/Powfu-zwx/clean-first-engineering) — the engineering discipline I hold my agents (and myself) to, packaged as an installable agent skill in English and Chinese: root-cause repair, one source of truth, no residue.
 
 **Notes & research**
 
-- [BreakRL](https://github.com/Powfu-zwx/BreakRL) — ablation-driven reinforcement learning fundamentals in Chinese: notes, derivations, and runnable notebooks.
-- [clean-first-engineering](https://github.com/Powfu-zwx/clean-first-engineering) — the engineering discipline I hold my agents (and myself) to, packaged as an installable agent skill.
+- [BreakRL](https://github.com/Powfu-zwx/BreakRL) — a bilingual, failure-first RL textbook (English default, Chinese edition): explain an algorithm, then ablate a key mechanism and watch it fail.
 
-Evidence over vibes: if an agent did something, there should be a portable record anyone can verify.
+Evidence over vibes: if an agent did something, there should be a record anyone can verify.
